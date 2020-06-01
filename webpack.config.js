@@ -24,5 +24,12 @@ module.exports = {
     devServer: {
         contentBase: path.join(__dirname, "public")
     },
-    mode: "development"
+    mode: "development",
+    resolve: {
+        extensions: ['.js', '.jsx'],
+        alias: {
+            root: __dirname,
+            src: path.resolve(__dirname, 'src'),
+        },
+    },
 };
