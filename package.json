@@ -6,7 +6,9 @@
   "scripts": {
     "serve": "live-server public/",
     "build": "webpack",
-    "dev-server": "webpack-dev-server"
+    "dev-server": "webpack-dev-server",
+    "dev": "webpack-dev-server --config webpack.dev.config.js  --port 8000",
+    "pro": "webpack --config webpack.config.js"
   },
   "dependencies": {
     "@babel/core": "^7.9.0",
