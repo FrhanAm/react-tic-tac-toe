@@ -23,7 +23,7 @@
     "core-js": "^3.6.5",
     "css-loader": "^3.5.2",
     "live-server": "^1.2.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "normalize.css": "^8.0.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
